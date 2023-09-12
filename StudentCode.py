@@ -2,7 +2,7 @@
 #you can set testIO as parameter if user input takes place or anything else dependin on assignment 
 #always output through testIO.print() and sure to return testIO 
 def runner(testIO):
-    testIO.print("Hello World")
+    testIO.print("Hello")
     ## Enter Student code in this block
 
     ##
