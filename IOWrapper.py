@@ -5,7 +5,7 @@ class IOWrapper():
         self.outBuffer=""
     def input(self):
         return (StringIO(self.inBuffer)).read()
-    def output(self):
+    def print(self):
         return (StringIO(self.outBuffer)).write()
     def check(self,o):
         if (self.inBuffer==o.inBuffer) and (self.outBuffer==o.outBuffer):
