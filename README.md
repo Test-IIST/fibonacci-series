@@ -1,14 +1,9 @@
 # Assignment Template: Python
-This example assignment is written in Python, and tested with pytest. For IIST SCOP Platform
+This example assignment is written for Python For IIST SCOP Platform
 
 ### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+Student simply has to print Hello World (in this manner as it is case senstitive) 
+to print use print like this :
+  testIO.print("your output text")
 
-### Setup command
-`sudo -H pip3 install pytest`
 
-### Run command
-`pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
