@@ -2,15 +2,9 @@ import SCOPP_tester;
 from IOWrapper import IOWrapper
 testIO = IOWrapper()
 expectedIO = IOWrapper()
-
-
-###
-
-##
-
 def test_hello():
     expectedList = [
-         "",
+        "",
         "0",
         "0,1",
         "0,1,1,2,3",
@@ -34,6 +28,3 @@ def test_hello():
         i+=1
         print("Test case Passed")
     print("Code is correct.All Test cases passed")
-
-##HATANA HAI
-test_hello()
